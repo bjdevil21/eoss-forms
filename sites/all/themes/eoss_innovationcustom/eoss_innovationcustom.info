@@ -1,7 +1,8 @@
-name = eoss_innovationcustom 
-description = A Kalatheme subtheme powered by Twitter Bootstrap & Science. 
-base theme = innovation 
-core = 7.x 
+name = eoss_innovationcustom
+description = A Web standards 2.0-based subtheme powered by Twitter Bootstrap & Science. Based on College theme.
+base theme = college
+core = 7.x
+version = 7.x-2.0
 
 regions[header] = Header
 regions[menu] = Menu
@@ -12,7 +13,6 @@ regions[prefooter] = Prefooter
 regions[footer] = Footer
 regions[closure] = Closure
 
-settings[toggle_logo] = 0 
+settings[toggle_logo] = 0
 
 stylesheets[all][] = css/main.css
-
