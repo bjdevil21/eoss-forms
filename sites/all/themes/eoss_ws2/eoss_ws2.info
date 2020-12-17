@@ -1,0 +1,18 @@
+name = EOSS WS2.0
+description = A Web standards 2.0-based subtheme based on the College theme (as of v2.0).
+base theme = college
+core = 7.x
+version = 7.x-2.0
+
+regions[header] = Header
+regions[menu] = Menu
+regions[content] = Content
+regions[asu_degree_marketing] = ASU Degree Marketing
+regions[asu_degree_sidebar] = ASU Degree Sidebar
+regions[prefooter] = Prefooter
+regions[footer] = Footer
+regions[closure] = Closure
+
+settings[toggle_logo] = 0
+
+stylesheets[all][] = css/main.css
