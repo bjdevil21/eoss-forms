@@ -13,3 +13,10 @@
 .file-upload-btn input[type=submit] {
   display: none;
 }
+
+/* EOSS-1461 - input field width override AFTER College theme */
+@media (min-width: 480px) {
+  .form-control {
+    width: auto;
+  }
+}
